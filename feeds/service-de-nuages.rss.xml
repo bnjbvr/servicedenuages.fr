@@ -25,7 +25,7 @@ c'est que la base de données doit faire la requête entière pour
 ensuite aller se déplacer jusqu'à la bonne ligne.&lt;/p&gt;
 &lt;p&gt;Si pendant que vous changez de page quelqu'un modifie la collection
 vous pouvez aussi louper des entrées ou avoir des doublons dans les
-résultats. Ce n'est pas consistant.&lt;/p&gt;
+résultats. Cela rend la liste des résultats inconsistante.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="comment-faire-pour-s-en-passer"&gt;
 &lt;h2&gt;Comment faire pour s'en passer ?&lt;/h2&gt;
