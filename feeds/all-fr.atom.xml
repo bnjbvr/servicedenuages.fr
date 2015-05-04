@@ -25,13 +25,14 @@ c'est que la base de données doit faire la requête entière pour
 ensuite aller se déplacer jusqu'à la bonne ligne.&lt;/p&gt;
 &lt;p&gt;Si pendant que vous changez de page quelqu'un modifie la collection
 vous pouvez aussi louper des entrées ou avoir des doublons dans les
-résultats. Cela rend la liste des résultats inconsistante.&lt;/p&gt;
+résultats. Cela rend la liste des résultats incohérente entre deux
+affichages.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="comment-faire-pour-s-en-passer"&gt;
 &lt;h2&gt;Comment faire pour s'en passer ?&lt;/h2&gt;
 &lt;p&gt;Pour bien comprendre, prenons le cas le plus simple.&lt;/p&gt;
 &lt;p&gt;Si vous triez par &lt;tt class="docutils literal"&gt;id&lt;/tt&gt; (la clé primaire), il vous suffit de garder
-trace du dernier &lt;tt class="docutils literal"&gt;id&lt;/tt&gt; de la page précedente.&lt;/p&gt;
+trace du dernier &lt;tt class="docutils literal"&gt;id&lt;/tt&gt; de la page précédente.&lt;/p&gt;
 &lt;p&gt;Prenons comme exemple la table de salariés suivante.
 Pour les besoins de l'exercice la date de recrutement est unique.
 Les données sont inexactes mais plausibles.&lt;/p&gt;
